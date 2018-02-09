@@ -8,6 +8,7 @@ class PhotonService
 {
     public function generate($imageUrl, Effects $effects)
     {
-        return new Generate($imageUrl, $effects);
+        $generator = new Generate($imageUrl, $effects);
+        $generator->process();
     }
 }
