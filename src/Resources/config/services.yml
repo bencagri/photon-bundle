@@ -1,0 +1,3 @@
+services:
+    bencagri.photon.service:
+        class: Bencagri\PhotonBundle\Service\PhotonService

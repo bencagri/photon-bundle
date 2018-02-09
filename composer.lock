@@ -1,0 +1,50 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "11413963f010529fb19051a574d3a084",
+    "packages": [
+        {
+            "name": "bencagri/photon",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bencagri/photon-wrapper.git",
+                "reference": "bee639e97720473826858ba596ba83260f37bd87"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bencagri/photon-wrapper/zipball/bee639e97720473826858ba596ba83260f37bd87",
+                "reference": "bee639e97720473826858ba596ba83260f37bd87",
+                "shasum": ""
+            },
+            "require-dev": {
+                "symfony/var-dumper": "^4.1@dev"
+            },
+            "type": "dev",
+            "autoload": {
+                "psr-4": {
+                    "Photon\\Wrapper\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "bencagri",
+                    "email": "selam@bencagri.com"
+                }
+            ],
+            "time": "2018-02-09T10:03:10+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
