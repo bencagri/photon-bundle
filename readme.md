@@ -58,7 +58,9 @@ public function indexAction(Request $request)
     $imageUrl = 'https://images.com/my.jpg';
     
     //generate the picture
-    $generator->generate($imageUrl,$effects);
+    $generator->setImageUrl($imageUrl);
+    $generator->setEffects($effects);
+    $generator->generate();
 }
 ```
 
